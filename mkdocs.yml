@@ -1,0 +1,69 @@
+site_name: Git y GitHub · Apuntes
+site_description: "Apuntes y prácticas de Git y GitHub: ramas, SSH, rebase y Pull Requests."
+site_url: https://apuntes-dam.github.io/git-apuntes/
+repo_url: https://github.com/apuntes-dam/git-apuntes
+repo_name: GitHub
+theme:
+  name: material
+  language: es
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+extra_css:
+  - assets/extra.css
+  - assets/lenguajes.css
+extra_javascript:
+  - assets/lenguajes.js
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/apuntes-dam/
+      name: Síguenos en GitHub
+copyright: Practica los Lenguajes de Programación para 1º DAM y 2º DAM · <a href="https://github.com/apuntes-dam/">Síguenos en GitHub</a>
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+nav:
+  - Inicio: index.md
+  - "U1 · Primeros pasos":
+      - u01/index.md
+      - "1.1 Conceptos": u01/conceptos.md
+      - "1.2 Instalar y configurar": u01/instalar.md
+      - "1.3 Tu primer repositorio": u01/primer-repo.md
+      - "G1 Ejercicios": u01/ejercicios.md
+  - "U2 · Ramas":
+      - u02/index.md
+      - "2.1 Ramas, fusiones y stash": u02/ramas.md
+      - "G2 Ejercicios": u02/ejercicios.md
+  - "U3 · GitHub y SSH":
+      - u03/index.md
+      - "3.1 GitHub y remotos": u03/github.md
+      - "3.2 Autenticación SSH": u03/ssh.md
+      - "G3 Ejercicios": u03/ejercicios.md
+  - "U4 · Flujo profesional":
+      - u04/index.md
+      - "4.1 Commits profesionales": u04/commits.md
+      - "4.2 Rebase y Pull Requests": u04/rebase-pr.md
+      - "G4 Ejercicios": u04/ejercicios.md
+  - "Chuleta de comandos": chuleta.md
