@@ -66,4 +66,30 @@ nav:
       - "4.1 Commits profesionales": u04/commits.md
       - "4.2 Rebase y Pull Requests": u04/rebase-pr.md
       - "G4 Ejercicios": u04/ejercicios.md
+  - "Avanzado": avanzado/index.md
+  - "A1 · Reescribir y recuperar la historia":
+      - avanzado/a1/index.md
+      - "A1.1 Deshacer: amend, reset y revert": avanzado/a1/01-deshacer.md
+      - "A1.2 Recuperar y mover commits": avanzado/a1/02-recuperar.md
+      - "GA1 Ejercicios": avanzado/a1/ejercicios.md
+  - "A2 · Rebase interactivo y limpiar la historia":
+      - avanzado/a2/index.md
+      - "A2.1 Rebase interactivo": avanzado/a2/01-rebase-interactivo.md
+      - "A2.2 Autosquash, --onto y conflictos": avanzado/a2/02-onto-conflictos.md
+      - "GA2 Ejercicios": avanzado/a2/ejercicios.md
+  - "A3 · Investigar la historia":
+      - avanzado/a3/index.md
+      - "A3.1 Preguntarle al historial": avanzado/a3/01-log.md
+      - "A3.2 Quién, cuándo y dónde: blame, bisect y grep": avanzado/a3/02-blame-bisect.md
+      - "GA3 Ejercicios": avanzado/a3/ejercicios.md
+  - "A4 · Ramas y trabajo en equipo":
+      - avanzado/a4/index.md
+      - "A4.1 Fusionar, conflictos y etiquetas": avanzado/a4/01-fusionar.md
+      - "A4.2 Flujos de trabajo, stash y worktree": avanzado/a4/02-flujos.md
+      - "GA4 Ejercicios": avanzado/a4/ejercicios.md
+  - "A5 · Automatizar y configurar":
+      - avanzado/a5/index.md
+      - "A5.1 Hooks, alias y configuración": avanzado/a5/01-hooks-config.md
+      - "A5.2 Limpiar, exportar y automatizar en el servidor": avanzado/a5/02-limpiar-ci.md
+      - "GA5 Ejercicios": avanzado/a5/ejercicios.md
   - "Chuleta de comandos": chuleta.md
