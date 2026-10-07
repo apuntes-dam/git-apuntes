@@ -55,3 +55,14 @@ ssh-keygen -t ed25519 -C "tu-correo@example.com"
 cat ~/.ssh/id_ed25519.pub      # esta es la que se copia a GitHub
 ssh -T git@github.com
 ```
+
+## Más comandos (cuando ya domines lo básico)
+
+| Quiero... | Comando |
+|---|---|
+| Marcar una versión | `git tag v1.0` · `git push origin v1.0` |
+| Rescatar commits que parecen perdidos | `git reflog` (historial de movimientos de `HEAD`) y `git switch -c rescate <hash>` |
+| Copiar un commit a la rama actual | `git cherry-pick <hash>` |
+| Encontrar qué commit introdujo un fallo | `git bisect start` · `git bisect bad` · `git bisect good <hash>` |
+| Ver quién cambió cada línea | `git blame archivo` |
+| Elegir cómo se hace `git pull` | `git config --global pull.rebase false` (fusionar) o `true` (rebasar) |
