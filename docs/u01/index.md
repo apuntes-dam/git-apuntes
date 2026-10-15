@@ -1,5 +1,13 @@
 # U1 · Primeros pasos con Git
 
+<div class="narrador" data-slug="u01-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 1"></div>
+
+??? note "Leer el resumen"
+    Git es un sistema que guarda la historia de tu proyecto.
+    En esta unidad entiendes qué es un repositorio, instalas y configuras Git, y haces tus primeros commits. Un commit es una foto del proyecto en un momento dado.
+    Aprenderás a consultar qué ha cambiado y a deshacer cambios con seguridad, porque con Git casi nada se pierde si sabes dónde mirar.
+
+
 Un repositorio local, sus primeros commits y cómo consultar y deshacer cambios con seguridad.
 
 ## Teoría
