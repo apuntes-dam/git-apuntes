@@ -94,7 +94,7 @@ $ git worktree add -b urgente ../app-urgente
 HEAD is now at 3e5728b Crea el proyecto
 Preparing worktree (new branch 'urgente')
 $ git worktree list
-/ruta/al/proyecto    3e5728b [main]
+/ruta/proyecto    3e5728b [main]
 /ruta/app-urgente 3e5728b [urgente]
 $ cd ../app-urgente && echo arreglo > arreglo.txt && git add arreglo.txt && git commit -q -m 'Arreglo urgente' && git branch --show-current
 urgente
@@ -105,7 +105,7 @@ a19be50 Añade el login
 3e5728b Crea el proyecto
 $ git worktree remove ../app-urgente
 $ git worktree list
-/ruta/al/proyecto 3e5728b [main]
+/ruta/proyecto 3e5728b [main]
 ```
 
 Qué ha pasado:
